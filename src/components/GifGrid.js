@@ -22,14 +22,15 @@ const GifGrid = ({ category }) => {
             }
         })
         //console.log(gifs)
-        console.log(data)
-
+        // console.log(data)
         setImages(gifs);
     }
 
     return (
         <>
-            <h3>{category}</h3>
+        <h3>{category}</h3>
+        <div className="card-grid">
+           
             {
             images.map( img => (
                     <GifsGridItem
@@ -38,6 +39,7 @@ const GifGrid = ({ category }) => {
                     />
                 ))
             }
+        </div>
         </>
     )
 }

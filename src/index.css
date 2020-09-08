@@ -12,3 +12,32 @@ input {
   width: 100%;
 
 }
+
+.card{
+  align-content:  center;
+  border:1px solid grey;
+  color: black;
+  font-style: italic;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: lavender;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
