@@ -6,7 +6,7 @@ const AddCategory = ({setCategories}) => {
     const [inputValue, setinputValue] = useState('');
 
     const handlerInputChange = (e) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
         setinputValue(e.target.value);
     }
 
@@ -15,7 +15,7 @@ const AddCategory = ({setCategories}) => {
         // console.log('Submit Hecho')
 
         if(inputValue.trim().length > 2){
-            setCategories(categorias => [...categorias, inputValue]);
+            setCategories(categorias => [inputValue, ...categorias]);
             setinputValue('');
         }
 
