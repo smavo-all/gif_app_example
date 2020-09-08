@@ -1,5 +1,14 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
   padding:20px;
+}
+
+input {
+  color: grey;
+  font-size: 1.2 rem;
+  width: 100%;
 
 }
