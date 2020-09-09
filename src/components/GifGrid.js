@@ -10,7 +10,7 @@ const GifGrid = ({ category }) => {
         <>
             <h3>{category}</h3>
 {
-    loading && 'Cargando....' 
+    loading && <p className="animate__flash ">Cargando....</p> 
 }
 
             { <div className="card-grid">

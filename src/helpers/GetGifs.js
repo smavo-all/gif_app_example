@@ -11,7 +11,7 @@ const getGifs = async (category) => {
         }
     })
     //console.log(gifs)
-    console.log(data)
+    //console.log(data)
     return gifs;
 }
 
